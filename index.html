@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossFit WOD Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">CrossFit WOD Generator</h1>
+        
+        <!-- Workout Length Input -->
+        <label for="workoutLength" class="subtitle">Select Workout Length</label>
+        <select id="workoutLength" class="input">
+            <option value="15">15 minutes</option>
+            <option value="30">30 minutes</option>
+            <option value="45">45 minutes</option>
+            <option value="60">60 minutes</option>
+            <option value="75">75 minutes</option>
+        </select>
+        
+        <!-- Format Selector for AMRAP and EMOM -->
+        <label class="subtitle">Select Workout Format</label>
+        <div class="format-container">
+            <input type="radio" id="amrap" name="format" value="AMRAP">
+            <label for="amrap">AMRAP</label>
+            <input type="radio" id="emom" name="format" value="EMOM">
+            <label for="emom">EMOM</label>
+        </div>
+
+        <!-- Muscle Group Selector -->
+        <label class="subtitle">Choose Muscle Groups</label>
+        <div id="muscleGroups" class="selector-container">
+            <!-- Options will be dynamically added here by JavaScript -->
+        </div>
+        
+        <!-- Generate Workout Button -->
+        <button id="generateWorkout" class="button">Generate Workout</button>
+        
+        <!-- Random Workout Button -->
+        <button id="randomWorkoutButton" class="button">Generate Random Workout</button>
+
+        <!-- Warmup Display -->
+        <h2 class="subtitle">Warmup Exercises</h2>
+        <div id="warmupDisplay" class="workout-container">
+            <!-- Warmup exercises will be displayed here -->
+        </div>
+
+        <!-- Workout Display -->
+        <h2 class="subtitle">Your Workout of the Day (WOD)</h2>
+        <div id="workoutDisplay" class="workout-container">
+            <p id="placeholderText" class="placeholder-text">Select workout length and muscle groups to generate your WOD.</p>
+        </div>
+
+        <!-- Random Workout Display -->
+        <h2 class="subtitle">Random Workout</h2>
+        <div id="randomWorkoutDisplay" class="workout-container">
+            <p id="randomPlaceholderText" class="placeholder-text">Click "Generate Random Workout" to get a random WOD.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

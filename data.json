@@ -1,0 +1,105 @@
+{
+    "exercises": {
+      "chest": [
+        { "name": "Push-Ups", "reps": "20-30 reps" },
+        { "name": "Bench Press", "reps": "8-12 reps" },
+        { "name": "Dumbbell Chest Flyes", "reps": "12-15 reps" },
+        { "name": "Ring Dips", "reps": "15-20 reps" },
+        { "name": "Burpee Box Jump-Overs", "reps": "12-15 reps" },
+        { "name": "Handstand Push-Ups", "reps": "5-10 reps" },
+        { "name": "Wall Balls", "reps": "20-25 reps" },
+        { "name": "Plyometric Push-Ups", "reps": "15-20 reps" },
+        { "name": "Clapping Push-Ups", "reps": "10-15 reps" }
+      ],
+      "legs": [
+        { "name": "Air Squats", "reps": "50-100 reps" },
+        { "name": "Front Squats", "reps": "8-10 reps" },
+        { "name": "Back Squats", "reps": "10-12 reps" },
+        { "name": "Wall Balls", "reps": "20-25 reps" },
+        { "name": "Walking Lunges", "reps": "20-30 reps per leg" },
+        { "name": "Overhead Lunges", "reps": "15-20 reps per leg" },
+        { "name": "Box Jumps", "reps": "15-20 reps" },
+        { "name": "Bulgarian Split Squats", "reps": "10-15 reps per leg" },
+        { "name": "Pistol Squats", "reps": "5-10 reps per leg" },
+        { "name": "Step-Ups", "reps": "15-20 reps per leg" }
+      ],
+      "back": [
+        { "name": "Pull-Ups", "reps": "10-15 reps" },
+        { "name": "Deadlifts", "reps": "8-12 reps" },
+        { "name": "Sumo Deadlift High Pull", "reps": "15-20 reps" },
+        { "name": "Bent-Over Rows", "reps": "12-15 reps" },
+        { "name": "Kettlebell Swings", "reps": "20-30 reps" },
+        { "name": "Ring Rows", "reps": "15-20 reps" },
+        { "name": "Rope Climbs", "reps": "2-5 reps" },
+        { "name": "Strict Pull-Ups", "reps": "8-10 reps" },
+        { "name": "Chest-to-Bar Pull-Ups", "reps": "10-15 reps" },
+        { "name": "Muscle-Ups", "reps": "5-10 reps" }
+      ],
+      "shoulders": [
+        { "name": "Overhead Press", "reps": "10-15 reps" },
+        { "name": "Push Press", "reps": "8-12 reps" },
+        { "name": "Thrusters", "reps": "15-20 reps" },
+        { "name": "Push Jerks", "reps": "8-12 reps" },
+        { "name": "Handstand Push-Ups", "reps": "5-10 reps" },
+        { "name": "Dumbbell Shoulder Press", "reps": "10-12 reps" },
+        { "name": "Dumbbell Snatches", "reps": "15-20 reps per arm" },
+        { "name": "Arnold Press", "reps": "10-12 reps" },
+        { "name": "Dumbbell Front Raises", "reps": "12-15 reps" },
+        { "name": "Dumbbell Lateral Raises", "reps": "12-15 reps" }
+      ],
+      "core": [
+        { "name": "Plank", "time": "1-2 minutes" },
+        { "name": "Russian Twists", "reps": "20-30 reps" },
+        { "name": "Sit-Ups", "reps": "25-50 reps" },
+        { "name": "Toes-to-Bar", "reps": "10-15 reps" },
+        { "name": "GHD Sit-Ups", "reps": "15-20 reps" },
+        { "name": "L-Sit Hold", "time": "30-45 seconds" },
+        { "name": "V-Ups", "reps": "20-30 reps" },
+        { "name": "Hollow Body Hold", "time": "45-60 seconds" },
+        { "name": "Hanging Knee Raises", "reps": "15-20 reps" },
+        { "name": "Mountain Climbers", "time": "1-2 minutes" }
+      ],
+      "cardio": [
+        { "name": "Rowing", "time": "500-1000 meters" },
+        { "name": "Burpees", "reps": "15-25 reps" },
+        { "name": "Double-Unders", "reps": "50-100 reps" },
+        { "name": "Running", "time": "400-800 meters" },
+        { "name": "Bike Erg", "time": "1-2 minutes" },
+        { "name": "Ski Erg", "time": "1-2 minutes" },
+        { "name": "Jump Rope", "time": "2-3 minutes" },
+        { "name": "Box Jump Overs", "reps": "15-20 reps" }
+      ],
+      "fullBody": [
+        { "name": "Thrusters", "reps": "15-20 reps" },
+        { "name": "Burpees", "reps": "15-20 reps" },
+        { "name": "Kettlebell Swings", "reps": "15-20 reps" },
+        { "name": "Wall Balls", "reps": "20-25 reps" },
+        { "name": "Sumo Deadlift High Pull", "reps": "15-20 reps" },
+        { "name": "Double-Unders", "reps": "50-100 reps" },
+        { "name": "Box Jumps", "reps": "15-20 reps" },
+        { "name": "Dumbbell Snatches", "reps": "15-20 reps" },
+        { "name": "Medicine Ball Cleans", "reps": "15-20 reps" }
+      ]
+    },
+    "warmupExercises": [
+      { "name": "Jump Rope", "time": "3 minutes" },
+      { "name": "High Knees", "time": "2 minutes" },
+      { "name": "Arm Circles", "time": "2 minutes" },
+      { "name": "Air Squats", "reps": "20 reps" },
+      { "name": "Lunges", "reps": "15 reps per leg" },
+      { "name": "Mountain Climbers", "time": "1 minute" }
+    ],
+    "popularWorkouts": [
+      { "name": "Murph", "details": "1 mile run, 100 pull-ups, 200 push-ups, 300 squats, 1 mile run" },
+      { "name": "Fran", "details": "21-15-9 reps of thrusters (95 lbs) and pull-ups" },
+      { "name": "Cindy", "details": "20 min AMRAP: 5 pull-ups, 10 push-ups, 15 squats" },
+      { "name": "Helen", "details": "3 rounds: 400m run, 21 kettlebell swings (1.5 pood), 12 pull-ups" },
+      { "name": "Jackie", "details": "1000m row, 50 thrusters (45 lbs), 30 pull-ups" },
+      { "name": "Angie", "details": "100 pull-ups, 100 push-ups, 100 sit-ups, 100 squats" },
+      { "name": "DT", "details": "5 rounds: 12 deadlifts, 9 hang power cleans, 6 push jerks (155 lbs)" },
+      { "name": "Fight Gone Bad", "details": "3 rounds of 1 min each: wall balls, sumo deadlift high-pulls, box jumps, push press, row" },
+      { "name": "Barbara", "details": "5 rounds: 20 pull-ups, 30 push-ups, 40 sit-ups, 50 squats (rest 3 mins)" },
+      { "name": "Filthy Fifty", "details": "50 reps each of box jumps, jumping pull-ups, kettlebell swings, walking lunges, knees to elbows, push press, back extensions, wall balls, burpees, double-unders" }
+    ]
+  }
+  
