@@ -8,56 +8,79 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">CrossFit WOD Generator</h1>
-        
+        <header>
+            <h1 class="title">CrossFit WOD Generator</h1>
+        </header>
+
         <!-- Workout Length Input -->
-        <label for="workoutLength" class="subtitle">Select Workout Length</label>
-        <select id="workoutLength" class="input">
-            <option value="15">15 minutes</option>
-            <option value="30">30 minutes</option>
-            <option value="45">45 minutes</option>
-            <option value="60">60 minutes</option>
-            <option value="75">75 minutes</option>
-        </select>
+        <section aria-labelledby="workoutLengthLabel">
+            <label for="workoutLength" class="subtitle" id="workoutLengthLabel">Select Workout Length</label>
+            <select id="workoutLength" class="input" aria-label="Select the duration of your workout">
+                <option value="15">15 minutes</option>
+                <option value="30">30 minutes</option>
+                <option value="45">45 minutes</option>
+                <option value="60">60 minutes</option>
+                <option value="75">75 minutes</option>
+            </select>
+        </section>
         
         <!-- Format Selector for AMRAP and EMOM -->
-        <label class="subtitle">Select Workout Format</label>
-        <div class="format-container">
-            <input type="radio" id="amrap" name="format" value="AMRAP">
-            <label for="amrap">AMRAP</label>
-            <input type="radio" id="emom" name="format" value="EMOM">
-            <label for="emom">EMOM</label>
-        </div>
+        <section aria-labelledby="formatSelectorLabel">
+            <label class="subtitle" id="formatSelectorLabel">Select Workout Format</label>
+            <div class="format-container">
+                <input type="radio" id="amrap" name="format" value="AMRAP" aria-label="AMRAP format">
+                <label for="amrap">AMRAP</label>
+                <input type="radio" id="emom" name="format" value="EMOM" aria-label="EMOM format">
+                <label for="emom">EMOM</label>
+            </div>
+        </section>
 
         <!-- Muscle Group Selector -->
-        <label class="subtitle">Choose Muscle Groups</label>
-        <div id="muscleGroups" class="selector-container">
-            <!-- Options will be dynamically added here by JavaScript -->
-        </div>
-        
+        <section aria-labelledby="muscleGroupsLabel">
+            <label class="subtitle" id="muscleGroupsLabel">Choose Muscle Groups</label>
+            <div id="muscleGroups" class="selector-container" aria-label="Select the muscle groups for your workout">
+                <!-- Options will be dynamically added here by JavaScript -->
+            </div>
+        </section>
+
         <!-- Generate Workout Button -->
-        <button id="generateWorkout" class="button">Generate Workout</button>
-        
+        <section>
+            <button id="generateWorkout" class="button" aria-label="Generate your workout of the day">Generate Workout</button>
+        </section>
+
         <!-- Random Workout Button -->
-        <button id="randomWorkoutButton" class="button">Generate Random Workout</button>
+        <section>
+            <button id="randomWorkoutButton" class="button" aria-label="Generate a random workout">Generate Random Workout</button>
+        </section>
 
         <!-- Warmup Display -->
-        <h2 class="subtitle">Warmup Exercises</h2>
-        <div id="warmupDisplay" class="workout-container">
-            <!-- Warmup exercises will be displayed here -->
-        </div>
+        <section aria-labelledby="warmupExercisesLabel">
+            <h2 class="subtitle" id="warmupExercisesLabel">Warmup Exercises</h2>
+            <div id="warmupDisplay" class="workout-container" aria-live="polite">
+                <!-- Warmup exercises will be displayed here -->
+            </div>
+        </section>
 
         <!-- Workout Display -->
-        <h2 class="subtitle">Your Workout of the Day (WOD)</h2>
-        <div id="workoutDisplay" class="workout-container">
-            <p id="placeholderText" class="placeholder-text">Select workout length and muscle groups to generate your WOD.</p>
-        </div>
+        <section aria-labelledby="workoutDisplayLabel">
+            <h2 class="subtitle" id="workoutDisplayLabel">Your Workout of the Day (WOD)</h2>
+            <div id="workoutDisplay" class="workout-container">
+                <p id="placeholderText" class="placeholder-text">Select workout length and muscle groups to generate your WOD.</p>
+            </div>
+        </section>
 
         <!-- Random Workout Display -->
-        <h2 class="subtitle">Random Workout</h2>
-        <div id="randomWorkoutDisplay" class="workout-container">
-            <p id="randomPlaceholderText" class="placeholder-text">Click "Generate Random Workout" to get a random WOD.</p>
-        </div>
+        <section aria-labelledby="randomWorkoutDisplayLabel">
+            <h2 class="subtitle" id="randomWorkoutDisplayLabel">Random Workout</h2>
+            <div id="randomWorkoutDisplay" class="workout-container">
+                <p id="randomPlaceholderText" class="placeholder-text">Click "Generate Random Workout" to get a random WOD.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Powered by CrossFit WOD Generator | Designed by [Your Name]</p>
+        </footer>
     </div>
 
     <script src="app.js"></script>

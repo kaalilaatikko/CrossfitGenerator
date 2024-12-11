@@ -120,15 +120,53 @@ body {
     color: #155724;
 }
 
-#randomWorkoutDisplay p {
-    margin: 5px 0;
+/* Make sure the display areas are accessible */
+#randomWorkoutDisplay[aria-live="polite"] {
+    padding: 10px;
     font-size: 16px;
-    color: #155724;
 }
 
-#randomPlaceholderText {
+/* For handling empty state or loading messages */
+#randomPlaceholderText,
+#placeholderText {
     color: #6c757d;
     text-align: center;
     font-style: italic;
     font-size: 16px;
 }
+
+/* Enhanced visual for workout display */
+#workoutDisplay,
+#warmupDisplay {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+#workoutDisplay p,
+#warmupDisplay p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styling for workout section */
+#workoutText {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Additional button and interaction styles */
+button:focus,
+input:focus {
+    outline: 3px solid #007BFF;
+    border-color: #007BFF;
+}
+
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
