@@ -5,6 +5,17 @@ body {
     background-color: #f0f4f7;
 }
 
+/* Background image for non-mobile view */
+@media (min-width: 768px) {
+    body {
+        background-image: url('images/kettlebell-5210887_1920.jpg'); /* Replace with your image path */
+        background-size: cover; /* Ensures the image covers the screen */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-position: center; /* Centers the image */
+        background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    }
+}
+
 .container {
     max-width: 500px;
     width: 100%;
